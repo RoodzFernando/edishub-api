@@ -13,5 +13,13 @@ module Types
     def users
       User.all
     end
+
+    # to return all the resources and its corresponding categories
+    field :resources, [Types::ResourceType], null: false,
+    description: "Return a listing of all resources and categories"
+
+    def resources
+      Resource.all
+    end
   end
 end
