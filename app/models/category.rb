@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-  # belongs_to :resource
+  belongs_to :resource
 end
