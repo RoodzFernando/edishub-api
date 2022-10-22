@@ -6,6 +6,7 @@ module Types
     field :title, String
     field :description, String
     field :categories, [CategoryType]
+    field :tags, [TagType]
     field :resource_link, String
     field :user_id, Integer, null: false
     field :created_at, GraphQL::Types::ISO8601DateTime, null: false
