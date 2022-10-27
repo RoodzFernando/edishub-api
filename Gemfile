@@ -16,7 +16,7 @@ gem 'puma', '~> 4.1'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'pg', '~> 1.4', '>= 1.4.4'
-gem 'devise', '~> 4.8', '>= 4.8.1'
+# gem 'devise', '~> 4.8', '>= 4.8.1'
 # Use Active Storage variant
 gem 'figaro', '~> 1.2'
 # gem 'image_processing', '~> 1.2'
@@ -27,6 +27,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 gem 'graphql', '~> 2.0', '>= 2.0.14'
+gem 'graphql_devise'
+gem 'omniauth'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
